@@ -15,10 +15,10 @@ using namespace std;
 
 
 int main(){
-    int N = 5, j, k;
+    int N, j, k;
     //cout << "Enter limit:";
-    //cin >> N;
-    for (int i = 1; i <= 5; i++){
+    cin >> N;
+    for (int i = 1; i <= N; i++){
         for (j = 1; j <= (N-i+1); j++){
             cout << j ;
         }
